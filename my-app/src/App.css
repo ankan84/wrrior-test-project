@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-border{
+  border: 1px solid red;
+}
+
+.main-container{
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  flex-direction:row;
+
+}
+
+.left-container{
+  width: 45vw;
+  height: auto;
+  border: 1px solid red;
+}
+.right-container{
+  width: 55vw;
+  height: auto;
+  border: 1px solid red;
+
+}
+.right-main-div{
+  width: 80%;
+  height: 120vh;
+  margin: 7%;
+  border: 1px solid #027e84;
+  background-color:#027e84;
+  
+}
+.margin-total-main-div{
+  width: 96%;
+  height:97%;
+  margin-top:2%;
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom:2%;
+  
+  background-image: url('./templetes/temp-9/temp9_back.jpeg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+.right-upper-part{
+   width: 100%;
+   height:45vh;
+  
+   display: flex;
+
+}
+.right-upper-image{
+   
+  width:180px;
+  height:180px;
+  background-color: #00bfc3;
+  margin:30px;
+  border-radius: 50%;
+  
+  
+  
+}
+
+.profile-img{
+  width:170px;
+  height:170px;
+ 
+  
+  margin-top: -5px;
+}
+.right-upper-info{
+  
+  background-color:#ffdfdd;
+  height: 230px;
+  width: 230px;
+  margin-top:50px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.right-upper-info-heading{
+  height: 90px;
+  width: 98%;
+  margin-left: 7px;
+}
+.right-upper-info-heading h3{
+   font-size: 30px;
+    color:#027e84;
+}
+
+.right-upper-info-heading h4{
+  font-size: 20px;
+}
+.right-upper-info-body{
+  height: 140px;
+  width: 98%;
+  margin-left: 7px;
+}
+.right-upper-info-body h5{
+  font-size: 17px;
+  color:#027e84;
+
+}
+.right-upper-info-body li{
+  font-size: 12px;
+}
+
+
+
+.right-lower-part{
+ 
+  width: 100%;
+   height:72vh;
+   /* border: 1px solid red; */
+   /* background-color: #00bfc3; */
+
+}
+
+.container{
+  /* border: 1px solid black; */
+}
+
+.user-content{
+  height:147px;
+  width:100%;
+  
+  margin-top: 7px;
+}
+
+.logo{
+  display: inline-block;
+}
+.logo i{
+  color: #e1574d;
+  font-size: 25px;
+}
+.sections-name{
+  margin-left:20px;
+  display: inline-block;
+  font-size: 20px;
+  color:#e1574d;
+  background-color:#efc3c1;
+  font-weight: 700;
+  border-radius: 7px;
+ 
+  
+
+}
+
+
+

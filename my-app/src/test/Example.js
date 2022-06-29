@@ -1,18 +1,21 @@
 import React, { useRef } from 'react';
-import ReactToPrint from 'react-to-print';
+import ReactToPrint from 'react-to-print-advanced';
 
 import { ComponentToPrint } from './ComponentToPrint';
 
 const Example = () => {
+
   const componentRef = useRef();
 
   return (
     <div>
+     <ComponentToPrint ref={componentRef} />
       <ReactToPrint
-        trigger={() => <button>Print this out!</button>}
+      
         content={() => componentRef.current}
+        trigger={() => <button>Print this out!</button>}
       />
-      <ComponentToPrint ref={componentRef} />
+     
     </div>
   );
 };

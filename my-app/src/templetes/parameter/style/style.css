@@ -1,0 +1,27 @@
+.year-setion{
+    
+    background-color: black;
+    color:aliceblue
+}
+
+ul{
+    color: #e1574d;
+   font-weight: 500;
+}
+ul li{
+    color:black;
+    padding: 0px;
+    margin-top: 0px;
+}
+ p{
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+  
+  
+  }
+
+li{
+    font-size: 12px;
+}

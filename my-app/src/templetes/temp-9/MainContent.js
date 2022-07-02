@@ -1,4 +1,14 @@
 import React from 'react'
+import './style.css'
+import About from '../parameter/About'
+import Contact from '../parameter/Contact'
+import Project from '../parameter/Project'
+import Language from '../parameter/Language'
+import Education from '../parameter/Education'
+import Skill from '../parameter/Skill'
+import WorkExprience from '../parameter/WorkExprience'
+
+
 
 function MainContent() {
   return (
@@ -8,7 +18,7 @@ function MainContent() {
         <div className="margin-total-main-div">
           <div className="right-upper-part">
             <div className="right-upper-image">
-              <img src="./images/temp-9-profile.png" className='rounded-circle profile-img' alt="" />
+              <img src="" className='rounded-circle profile-img' alt="" />
             </div>
             <div className="right-upper-info">
               <div className="right-upper-info-heading">
@@ -44,8 +54,8 @@ function MainContent() {
                     <div className="logo"><i className="fa-solid fa-user"></i></div>
                     <div className="sections-name">About Me</div>
                     <div className="user_information">
+                      <About></About>
 
-                      <p>Hello! I am Olivia. I am an experienced Graphic Designer with over 10 years of working experience in the advertising industry. I mainly work on Logo design and web design.  </p>
                     </div>
 
                   </div>
@@ -57,47 +67,35 @@ function MainContent() {
                     <div className="logo"><i className="fa-solid fa-gear"></i></div>
                     <div className="sections-name">Skills</div>
                     <div className="user_information">
-                    <ul> Expertise Skill
-                        <li>Logo Design</li>
-                        <li>Creativity</li>
-                        <li>Graphic Design</li>
-                        <li>Video Editing</li>
-                      </ul>
 
+                      <Skill></Skill>
                     </div>
 
                   </div>
                 </div>
               </div>
+
               <div className="row">
                 <div className="col-md-6">
-
 
                   <div className='user-content'>
                     <div className="logo"><i className="fa-solid fa-book-open"></i></div>
                     <div className="sections-name">Education</div>
                     <div className="user_information">
-                      
-                      <li>mKOUT university with 20@ with</li>
-                      <li>kolkata university with 20@ with</li>
-                      <li>delhi  university with 20@ with </li>
+
+                    <Education></Education>
                     </div>
 
                   </div>
 
                 </div>
                 <div className="col-md-6 my-border  border-bottom-right-only border-top-only">
-                <div className='user-content'>
-                <div className="user_information">
-                    <ul> Language Skill
-                        <li>English</li>
-                        <li>Chinese </li>
-                        <li>Portuguese</li>
-                        <li>French</li>
-                      </ul>
+                  <div className='user-content'>
+                    <div className="user_information">
 
+                      <Language></Language>
                     </div>
-                    </div>
+                  </div>
 
                 </div>
               </div>
@@ -109,10 +107,9 @@ function MainContent() {
                     <div className="sections-name">Work Experience</div>
                     <div className="user_information">
 
-                    <li>mKOUT university with 20@ with</li>
-                      <li>kolkata university with 20@ with</li>
-                    
-                      </div>
+                    <WorkExprience></WorkExprience>
+
+                    </div>
 
                   </div>
                 </div>
@@ -120,21 +117,44 @@ function MainContent() {
 
                   <div className='user-content'>
                     <div className="logo"><i className="fa-solid fa-user"></i></div>
-                    <div className="sections-name">Hobbies</div>
+                    <div className="sections-name">Projects</div>
                     <div className="user_information">
 
-                    <li className='hobbies'>Listening Music</li>
-                    <li className='hobbies'>Designing</li>
-                    <li className='hobbies'>Writing Journal</li>
-                    <li className='hobbies'>Writing Journal</li>
-              
-                  
+                      <Project></Project>
+
+
                     </div>
 
                   </div>
 
                 </div>
               </div>
+
+              <div className="row">
+                <div className="col-md-6 ">
+
+
+                  <div className='user-content'>
+                    <div className="logo">  <i className="fa-solid fa-user"></i></div>
+                    <div className="sections-name">Contact</div>
+                    <div className="user_information">
+                      <Contact></Contact>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="col-md-6 my-border border-bottom-right-only border-top-only">
+
+
+                
+                </div>
+
+              </div>
+
+
+
             </div>
           </div>
         </div>

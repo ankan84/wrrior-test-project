@@ -21,7 +21,7 @@ function MainContent_10() {
 
           </div>
           <div className="temp-10-right-about">
-            <About font="18px"></About>
+            <About font="18px" color="black"></About>
 
           </div>
 

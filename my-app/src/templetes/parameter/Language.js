@@ -7,7 +7,7 @@ function Language() {
                         <li>English</li>
                         <li>Chinese </li>
                         <li>Portuguese</li>
-                        <li>French</li>
+                        {/* <li>French</li> */}
                       </ul>
     </>
   )

@@ -54,7 +54,7 @@ function MainContent_9() {
                     <div className="logo"><i className="fa-solid fa-user"></i></div>
                     <div className="sections-name">About Me</div>
                     <div className="user_information">
-                      <About></About>
+                      <About color="black"></About>
 
                     </div>
 

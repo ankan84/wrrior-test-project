@@ -1,10 +1,11 @@
 import React from 'react'
 
-function WorkExprience() {
+function WorkExprience(props) {
   return (<>
     <ul>
-      <li>mKOUT university with 20@ with</li>
-      <li>kolkata university with 20@ with</li>
+      <li style={{fontSize:props.font}}>mKOUT university with 20@ with</li>
+      <li style={{fontSize:props.font}}>kolkata university with 20@ with</li>
+      <li style={{fontSize:props.font}}>kolkata  university with 20@ with university with 20@ with</li>
     </ul>
   </>
   )

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,200&family=Open+Sans:ital,wght@0,400;0,700;1,300;1,800&display=swap');
+
+.temp-10-right-main-div{
+    height: 150vh;
+    width: 100%;
+    border: 1px solid red;
+    background-image: url('./temp-10-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.temp-10-right-upper-div{
+    width: 100%;
+    height: 60vh;
+    
+}
+
+.temp-10-right-profile-information{
+
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content:space-around;
+}
+
+.temp-10-right-profile-information .profile-name{
+    
+     height:300px;
+     width: 300px;
+     /* border: 1px solid red; */
+}
+.temp-10-right-profile-information .profile-name h3{
+
+    font-size: 80px;
+}
+
+.temp-10-right-profile-information .profile-img{
+     height: 300px;
+     width: 300px;
+     border-radius: 10px;
+    margin-left: -50px;
+
+}
+
+.temp-10-right-profile-information .profile-img img{
+    height:300px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.temp-10-right-lower-div{
+     width: 100%;
+     height: 78vh;
+     /* border: 1px solid red; */
+}
+
+.temp-10-lower-information {
+    /* background-color: blue; */
+    height: auto;
+    width: 90%;
+    margin-top:20px;
+    margin-left:40px ;
+}
+
+.temp-10-lower-information .user-content{
+      margin-left:15px;
+      width: 90%;
+      height: 225px;
+}
+
+.temp-10-lower-information .user-content .user-content-name{
+    font-size: 40px;
+}
+
+.temp-10-border-left-only{
+   border-left: 2px solid black;
+}
+.temp-10-border-right-only{
+    border-right: 2px solid black;
+ }
+ .temp-10-border-top-only{
+    border-top: 2px solid black;
+ }
+ .temp-10-border-bottom-only{
+    border-bottom: 2px solid black;
+ }

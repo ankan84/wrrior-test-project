@@ -10,7 +10,7 @@ import WorkExprience from '../parameter/WorkExprience'
 
 
 
-function MainContent() {
+function MainContent_9() {
   return (
     <>
 
@@ -163,4 +163,4 @@ function MainContent() {
   )
 }
 
-export default MainContent
+export default MainContent_9

@@ -1,13 +1,13 @@
 import React from 'react'
 import './style/style.css'
 
-function Education() {
+function Education(props) {
     return (
         <>
            <ul>
-            <li>mKOUT university with technical wrok <span className='year-setion'>2019-2022 </span>  </li>
-            <li>mKOUT university with technical wrok <span className='year-setion'>2019-2022 </span> </li>
-            <li>mKOUT university with technical wrok <span className='year-setion'>2019-2022 </span>  </li>
+            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span>  </li>
+            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span> </li>
+            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span>  </li>
             </ul>
         </>
     )

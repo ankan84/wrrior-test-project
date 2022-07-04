@@ -77,11 +77,12 @@ font-family: 'Open Sans', sans-serif;
 .right-upper-info-body{
   height: 140px;
   width: 98%;
-  margin-left: 7px;
+  margin-top: -10px;
 }
 .right-upper-info-body h5{
   font-size: 17px;
   color:#027e84;
+  margin-left: -70px;
 
 }
 .right-upper-info-body li{

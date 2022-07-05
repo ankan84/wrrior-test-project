@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Language() {
+function Language(props) {
   return (
     <>
-          <ul> Language Skill
-                        <li>English</li>
-                        <li>Chinese </li>
-                        <li>Portuguese</li>
+          <ul style={{color:props.color}}> Language Skill
+                        <li style={{color:props.color}}>English</li>
+                        <li style={{color:props.color}}>Chinese </li>
+                        <li style={{color:props.color}}>Portuguese</li>
                         {/* <li>French</li> */}
                       </ul>
     </>

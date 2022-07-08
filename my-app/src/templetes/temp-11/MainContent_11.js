@@ -5,7 +5,7 @@ import Education from '../parameter/Education';
 import Skill from '../parameter/Skill';
 import Contact from '../parameter/Contact';
 import Language from '../parameter/Language';
-
+import Project from '../parameter/Project';
 
 
 function MainContent_11() {
@@ -67,7 +67,8 @@ function MainContent_11() {
                         </div>
                         <div className="col-md-6 temp-11-border-left-only">
                         <div className="user-information">
-                             
+                        <h3>Contact</h3>
+                             <Project font="14px"></Project>
                           </div>
 
                         </div>

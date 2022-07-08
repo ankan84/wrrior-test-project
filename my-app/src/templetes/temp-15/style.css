@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+.temp-15-right-main-div{
+    height: 150vh;
+    width: 100%;
+    
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+
+.temp-15-right-header-div{
+    height: 150px;
+    width: 100%;
+    background-color: #0c2461;
+
+}
+.temp-15-right-profile-information{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   
+
+
+}
+.temp-15-right-name h3,.temp-15-right-name h5{
+   color:#fff;
+   letter-spacing: 3px;
+}
+.temp-15-right-name h3{
+    font-size: 30px;
+}
+
+.temp-15-right-name h5{
+    font-size: 17px;
+}
+
+.temp-15-right-img{
+    height: 180px;
+    width:  180px;
+    border-radius:50%;
+    margin-top: 80px;
+
+}
+.temp-15-right-img img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    
+}
+
+.temp-15-right-middle-div{
+    border-top:3px solid #fff;
+    height: 350px;
+    width: 100%;
+    background-color: #c8d6e5;
+    border-bottom:3px solid #fff;
+
+}
+
+.temp-15-right-user-information{
+    width: 92%;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin: 30px;
+}
+.temp-15-right-user-information h3{
+    color: #0c2461;
+}
+
+.temp-15-right-lower-div{
+    height: 485px;;
+    width: 100%;
+    background-color: #8395a7;
+}
+.temp-15-right-lower-user-information{
+    height: 450px;;
+    width: 92%;
+  
+    margin: 4%;
+    position:absolute
+}
+.temp-15-right-lower-user-information .user-information{
+     width: 100%;
+     height: 215px;
+     /* background-color: #fff; */
+}
+.temp-15-right-lower-user-information .user-information h3{
+    color: #0c2461;
+}
+

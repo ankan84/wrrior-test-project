@@ -3,7 +3,7 @@ import './style.css'
 import About from '../parameter/About'
 import Language from '../parameter/Language'
 import Contact from '../parameter/Contact'
-import WorkExprience from '../parameter/WorkExprience'
+import Experience from '../parameter/Experience'
 import Education from '../parameter/Education'
 import Skill from '../parameter/Skill'
 import Project from '../parameter/Project'
@@ -58,7 +58,7 @@ function MainContent_13() {
                                 <div className="col-md-12">
                                     <div className="user-information">
                                         <h3>Work Experience</h3>
-                                        <WorkExprience font="14px"></WorkExprience>
+                                        <Experience font="14px"></Experience>
                                     </div>
                                 </div>
                             </div>

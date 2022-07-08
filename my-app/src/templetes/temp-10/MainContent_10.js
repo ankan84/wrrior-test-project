@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import About from '../parameter/About'
-import WorkExprience from '../parameter/WorkExprience'
+import Experience from '../parameter/Experience'
 import Skill from '../parameter/Skill'
 import Education from '../parameter/Education'
 import Contact from '../parameter/Contact'
@@ -36,7 +36,7 @@ function MainContent_10() {
                   <h3 className="user-content-name">
                     Work Exprience
                   </h3>
-                  <WorkExprience font="15px"></WorkExprience>
+                  <Experience font="15px"></Experience>
                 </div>
 
               </div>

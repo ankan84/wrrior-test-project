@@ -5,9 +5,12 @@ function Education(props) {
     return (
         <>
            <ul>
-            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span>  </li>
-            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span> </li>
-            <li style={{fontSize:props.font}}>mKOUT university with technical wrok <span className='year-setion' style={{color:props.color}}>2019-2022 </span>  </li>
+           <span className='year-setion' style={{color:props.color,fontWeight:"600",fontSize:props.font}}>2019-2022 </span>
+            <li style={{fontSize:props.font,color:props.color}}>mKOUT university with technical wrok   </li>
+            <span className='year-setion' style={{color:props.color,fontWeight:"600",fontSize:props.font}}>2019-2022 </span>
+            <li style={{fontSize:props.font,color:props.color}}>mKOUT university with technical wrok  </li>
+            <span className='year-setion' style={{color:props.color,fontWeight:"600",fontSize:props.font}}>2019-2022 </span>
+            <li style={{fontSize:props.font,color:props.color}}>mKOUT university with technical wrok   </li>
             </ul>
         </>
     )

@@ -6,7 +6,7 @@ import Project from '../parameter/Project'
 import Language from '../parameter/Language'
 import Education from '../parameter/Education'
 import Skill from '../parameter/Skill'
-import WorkExprience from '../parameter/WorkExprience'
+import Experience from '../parameter/Experience'
 
 
 
@@ -54,7 +54,7 @@ function MainContent_9() {
                     <div className="logo"><i className="fa-solid fa-user"></i></div>
                     <div className="sections-name">About Me</div>
                     <div className="user_information">
-                      <About color="black"></About>
+                      <About color="black" font="14px"></About>
 
                     </div>
 
@@ -68,7 +68,7 @@ function MainContent_9() {
                     <div className="sections-name">Skills</div>
                     <div className="user_information">
 
-                      <Skill></Skill>
+                      <Skill font="14px"></Skill>
                     </div>
 
                   </div>
@@ -83,7 +83,7 @@ function MainContent_9() {
                     <div className="sections-name">Education</div>
                     <div className="user_information">
 
-                    <Education></Education>
+                      <Education font="14px"></Education>
                     </div>
 
                   </div>
@@ -93,7 +93,7 @@ function MainContent_9() {
                   <div className='user-content'>
                     <div className="user_information">
 
-                      <Language></Language>
+                      <Language font="14px"></Language>
                     </div>
                   </div>
 
@@ -107,7 +107,7 @@ function MainContent_9() {
                     <div className="sections-name">Work Experience</div>
                     <div className="user_information">
 
-                    <WorkExprience></WorkExprience>
+                      <Experience font="14px"></Experience>
 
                     </div>
 
@@ -120,7 +120,7 @@ function MainContent_9() {
                     <div className="sections-name">Projects</div>
                     <div className="user_information">
 
-                      <Project></Project>
+                      <Project font="14px"></Project>
 
 
                     </div>
@@ -134,21 +134,13 @@ function MainContent_9() {
                 <div className="col-md-6 ">
 
 
-                  <div className='user-content'>
-                    <div className="logo">  <i className="fa-solid fa-user"></i></div>
-                    <div className="sections-name">Contact</div>
-                    <div className="user_information">
-                      <Contact></Contact>
-
-                    </div>
-
-                  </div>
+                  
                 </div>
 
                 <div className="col-md-6 my-border border-bottom-right-only border-top-only">
 
 
-                
+
                 </div>
 
               </div>

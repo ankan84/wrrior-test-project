@@ -46,12 +46,17 @@
     
     
 }
-.temp-12-right-inner-top h3,h5{
+.temp-12-right-inner-top h3{
     text-align: center;
     margin-top: 25px;
     letter-spacing: 2px;
 
     
+}
+.temp-12-right-inner-top h5{
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 2px;
 }
 .temp-12-right-inner-top h3{
     text-align: center;

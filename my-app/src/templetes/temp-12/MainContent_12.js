@@ -6,7 +6,7 @@ import Language from '../parameter/Language'
 import Education from '../parameter/Education'
 import Project from '../parameter/Project'
 import About from '../parameter/About'
-import WorkExprience from '../parameter/WorkExprience'
+import Experience from '../parameter/Experience'
 
 function MainContent_12() {
     return (
@@ -55,7 +55,7 @@ function MainContent_12() {
                                     <h4>PROJECT</h4>
                                     <hr />
                                     
-                                    <Project font="10px"></Project>
+                                    <Project font="12px"></Project>
                                 </div>
                             </div>
                         </div>
@@ -95,10 +95,10 @@ function MainContent_12() {
                         <div className="row">
                             <div className="col-md-12">
                             <div className="user-information">
-                                    <h4>EXPERINCE</h4>
+                                    <h4>WORK EXPERIENCE</h4>
                                     
                                     
-                                    <WorkExprience font="13px"></WorkExprience>
+                                    <Experience font="13px"></Experience>
                                 </div>
                             </div>
                         </div>

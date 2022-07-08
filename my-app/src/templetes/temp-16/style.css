@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+
+.temp-16-right-main-div{
+    height: 150vh;
+    width: 100%;
+    position:absolute;
+    background-color:#F9F9DD;
+    font-family: 'Judson', serif;
+
+}
+
+.temp-16-right-upper-div{
+    height: 280px;
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+.temp-16-right-profile-information{
+    height: 250px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-around;
+    margin: 3%;
+    /* border: 1px solid red; */
+}
+
+.temp-16-right-profile-information .profile-img{
+     height: 160px;
+     width: 160px;
+     border-radius: 10px;
+
+}
+
+.temp-16-right-profile-information .profile-img img{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.temp-16-right-profile-information .profile-information-name h3{
+  color: #AC6015;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight:700 ;
+  
+
+}
+.temp-16-right-profile-information .profile-information-name h5{
+    color: #AC6015;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 17px;
+ }
+  
+ .temp-16-right-profile-information .profile-information-name{
+    margin-top: -10px;
+    /* border:1px solid rebeccapurple; */
+ }
+
+ .temp-16-right-profile-information .profile-information-about{
+       margin-top: 40px;
+ }
+
+
+ .temp-16-right-middle-div{
+    height: 580px;
+    width: 100%;
+    /* border: 1px solid firebrick; */
+    /* background-color: aqua; */
+
+
+ }
+
+ .temp-16-right-user-information{
+    width: 90%;
+    height: 550px;
+    margin: 3%;
+
+
+ }
+
+ .temp-16-right-user-information .user-information{
+     
+  width: 100%;
+  height: 140px;
+  /* border: 1px solid red; */
+ }
+ .user-information-skill-div{
+    width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+ }
+
+ .temp-16-right-user-information  h3{
+
+    color: #AC6015;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: -10px;
+ }
+ 
+.temp-16-my-border-top{
+    border-top:3px solid #AC6015
+}
+.temp-16-right-lower-div{
+    height: 70px;
+    width: 100%;
+    background-color: #6C3D29;
+    
+
+
+}
+
+.temp-16-right-lower-information {
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+ 
+}
+.temp-16-right-lower-information{
+    text-align: center;
+}
+.temp-16-right-lower-information .lower-information-left{
+    padding: 12px;
+}
